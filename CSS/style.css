@@ -5,7 +5,18 @@ body {
 }
 
 
+.cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    background: #56FBFB;
+    transition: 0s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
 
+}
 
 h1 {
     font-size:11.9vw;
