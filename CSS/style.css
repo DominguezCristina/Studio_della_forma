@@ -156,3 +156,30 @@ a[aria-expanded=true]{
     margin-top:0px;
     margin-bottom:5px;
 }
+
+@font-face {
+    font-family: 'ABCNormal';
+    src: url('ABCNormal-Medium.woff2') format('woff2'),
+        url('ABCNormal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABCNormal-Normal';
+    src: url('ABCNormal-Normal.woff2') format('woff2'),
+        url('ABCNormal-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABCNormal';
+    src: url('ABCNormal-Light.woff2') format('woff2'),
+        url('ABCNormal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
